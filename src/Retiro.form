@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Retiro">
+  <grid id="27dc6" binding="RetiroPanel" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="30" vgap="20">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="481"/>
+    </constraints>
+    <properties>
+      <background color="-3287841"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="bf8e4" class="javax.swing.JTextField" binding="RetiroTxt">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1115393"/>
+          <font size="18"/>
+        </properties>
+      </component>
+      <vspacer id="3ae64">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="b1117" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5856600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d7b76" class="javax.swing.JButton" binding="Button1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="a9cd7" class="javax.swing.JButton" binding="Button2">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="8f841" class="javax.swing.JButton" binding="Button3">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="c2709" class="javax.swing.JButton" binding="Button4">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="87fa8" class="javax.swing.JButton" binding="Button5">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="270e1" class="javax.swing.JButton" binding="Button6">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="be7ce" class="javax.swing.JButton" binding="Button7">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="5504" class="javax.swing.JButton" binding="Button8">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="427e" class="javax.swing.JButton" binding="Button9">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="42105" class="javax.swing.JButton" binding="Button0">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="e90a4" class="javax.swing.JButton" binding="BorrarButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="⌫"/>
+            </properties>
+          </component>
+          <component id="8c52b" class="javax.swing.JButton" binding="EnterButton">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="40"/>
+                <preferred-size width="60" height="40"/>
+                <maximum-size width="60" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+              <text value="↲"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="f5f56">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="9b9ad">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8b37b" class="javax.swing.JButton" binding="volverAlMenúButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="16" style="1"/>
+          <text value="Volver al menú "/>
+        </properties>
+      </component>
+      <component id="42089" class="javax.swing.JLabel" binding="ValidarLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3138804"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
